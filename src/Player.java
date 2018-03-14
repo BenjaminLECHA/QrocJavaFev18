@@ -3,10 +3,10 @@ public class Player {
     private String name;
     private int nbCard;
 
-    public int i = 0;
+    public static int i = 0;
 
     public Player(int n) {
-        name = "Player" + (i++);
+        name = "Player" + i++;
         nbCard = n;
     }
 
